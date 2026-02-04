@@ -1,6 +1,7 @@
 # 🌉 Skill-Sync: AI-Powered Code Intelligence Platform
 [[AWS Builder Center Article Post Link:](https://builder.aws.com/content/3950B26X4GKmrWb21sFXjkTdFi0/building-skill-sync-an-ai-powered-code-intelligence-platform-with-amazon-bedrock-and-react)]
-https://builder.aws.com/content/3950B26X4GKmrWb21sFXjkTdFi0/building-skill-sync-an-ai-powered-code-intelligence-platform-with-amazon-bedrock-and-react
+
+- https://builder.aws.com/content/3950B26X4GKmrWb21sFXjkTdFi0/building-skill-sync-an-ai-powered-code-intelligence-platform-with-amazon-bedrock-and-react
 
 ---
 > **Next-Generation AI Agentic System Using Amazon Bedrock & RAG for Intelligent Code Comprehension**
@@ -671,6 +672,7 @@ MIT License - Built with ❤️ for the developer community
 
 
 **Ready to bridge the gap? Let's make code comprehensible for everyone! 🌉✨**
+
 
 
 
