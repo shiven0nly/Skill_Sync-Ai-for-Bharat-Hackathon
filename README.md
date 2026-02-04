@@ -45,12 +45,12 @@ In today's software development world, there's a **massive knowledge gap** that'
 ## 💡 Our Solution: Skill-Sync AI Agentic Platform
 
 **Skill-Sync is a next-generation AI Agentic system powered by Amazon Bedrock and advanced RAG (Retrieval-Augmented Generation) that creates intelligent, context-aware code explanations tailored to individual skill levels.**
-[![MindMap For System Structure](https://miro.com/app/board/uXjVGHTgaJo=/?share_link_id=147427122305)]
+[[MindMap For System Structure](https://miro.com/app/board/uXjVGHTgaJo=/?share_link_id=147427122305)]
 
 ### 🤖 AI Agentic Architecture
 
 Our platform employs **multiple specialized AI agents** working in harmony:
-[![MindMap For Architecture](https://miro.com/app/board/uXjVGHT1rPQ=/?share_link_id=541418402263)]
+[[MindMap For Architecture](https://miro.com/app/board/uXjVGHT1rPQ=/?share_link_id=541418402263)]
 
 #### 🧠 **Code Analysis Agent** (Powered by Amazon Bedrock)
 ```
@@ -319,7 +319,7 @@ Based on your skill level (4/10), I recommend approach #2..."
 ## 🛠️ Enterprise AI Architecture
 
 ### Core AI Components
-[![MindMap of Design.md](https://miro.com/app/board/uXjVGHTkdAQ=/?share_link_id=28521638033)]
+[[MindMap of Design.md](https://miro.com/app/board/uXjVGHTkdAQ=/?share_link_id=28521638033)]
 
 #### � **Amazon Bedrock Foundation**
 ```
@@ -668,5 +668,6 @@ MIT License - Built with ❤️ for the developer community
 
 
 **Ready to bridge the gap? Let's make code comprehensible for everyone! 🌉✨**
+
 
 
