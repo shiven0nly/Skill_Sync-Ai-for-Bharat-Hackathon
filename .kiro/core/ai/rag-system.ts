@@ -398,9 +398,9 @@ export class RAGSystem {
   } {
     const stats = {
       totalEntries: this.vectorDatabase.size,
-      languageDistribution: {},
-      sourceDistribution: {},
-      complexityDistribution: {}
+      languageDistribution: {} as Record<string, number>,
+      sourceDistribution: {} as Record<string, number>,
+      complexityDistribution: {} as Record<string, number>
     };
 
     for (const entry of this.vectorDatabase.values()) {

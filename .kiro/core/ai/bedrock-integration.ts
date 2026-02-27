@@ -93,7 +93,7 @@ export class BedrockAIService {
 
     } catch (error) {
       console.error('Bedrock AI analysis failed:', error);
-      throw new Error(`AI analysis failed: ${error.message}`);
+      throw new Error(`AI analysis failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
     }
   }
 
@@ -186,7 +186,7 @@ Guidelines:
 
     } catch (error) {
       console.error('Embedding generation failed:', error);
-      throw new Error(`Embedding generation failed: ${error.message}`);
+      throw new Error(`Embedding generation failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
     }
   }
 
@@ -265,7 +265,7 @@ export const BedrockUtils = {
    */
   estimateCost(inputTokens: number, outputTokens: number, modelId: string): number {
     // Simplified cost estimation (actual costs vary by model and region)
-    const costs = {
+    const costs: Record<string, { input: number; output: number }> = {
       'anthropic.claude-3-5-sonnet-20241022-v2:0': { input: 0.003, output: 0.015 },
       'anthropic.claude-3-haiku-20240307-v1:0': { input: 0.00025, output: 0.00125 },
       'amazon.titan-embed-text-v1': { input: 0.0001, output: 0 }

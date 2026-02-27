@@ -256,7 +256,7 @@ export class AgentOrchestrator {
       return {
         agentType: AgentType.ANALYSIS,
         success: false,
-        error: error.message,
+        error: error instanceof Error ? error.message : 'Unknown error',
         executionTime: Date.now() - startTime,
         confidence: 0
       };
@@ -284,7 +284,7 @@ export class AgentOrchestrator {
       return {
         agentType: AgentType.KNOWLEDGE,
         success: false,
-        error: error.message,
+        error: error instanceof Error ? error.message : 'Unknown error',
         executionTime: Date.now() - startTime,
         confidence: 0
       };
@@ -324,7 +324,7 @@ export class AgentOrchestrator {
       return {
         agentType: AgentType.EXPLANATION,
         success: false,
-        error: error.message,
+        error: error instanceof Error ? error.message : 'Unknown error',
         executionTime: Date.now() - startTime,
         confidence: 0
       };
@@ -360,7 +360,7 @@ export class AgentOrchestrator {
       return {
         agentType: AgentType.METAPHOR,
         success: false,
-        error: error.message,
+        error: error instanceof Error ? error.message : 'Unknown error',
         executionTime: Date.now() - startTime,
         confidence: 0
       };
@@ -391,7 +391,7 @@ export class AgentOrchestrator {
       return {
         agentType: AgentType.LEARNING,
         success: false,
-        error: error.message,
+        error: error instanceof Error ? error.message : 'Unknown error',
         executionTime: Date.now() - startTime,
         confidence: 0
       };
